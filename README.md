@@ -1,57 +1,57 @@
 # LanBridge 🚀
 
-> LAN üzerinden anlık mesajlaşma uygulaması
+> Real-time LAN messaging application over TCP sockets
 
-## Özellikler
+## Features
 
-- ✅ TCP socket tabanlı client-server mimarisi
-- ✅ Çoklu istemci desteği (threading)
-- ✅ Renkli konsol arayüzü
-- ✅ Gerçek zamanlı mesajlaşma
-- ✅ Kullanıcı katılma/ayrılma bildirimleri
-- ✅ Online kullanıcı listesi
-- ✅ Windows desteği (`msvcrt` ile klavye girdisi)
-- ✅ Kolay başlatma (`baslat.bat`)
+- ✅ TCP socket-based client-server architecture
+- ✅ Multi-client support (threading)
+- ✅ Colorful console interface
+- ✅ Real-time messaging
+- ✅ Join/leave notifications
+- ✅ Online user list
+- ✅ Windows support (`msvcrt` for keyboard input)
+- ✅ Easy launcher (`lanchat.bat`)
 
-## Kurulum
+## Installation
 
 ```bash
-git clone https://github.com/hayka8/LanBridge.git
+git clone https://github.com/haydarkadioglu/LanBridge.git
 cd LanBridge
 ```
 
-## Kullanım
+## Usage
 
-### Sunucu başlatma:
+### Start the server:
 ```bash
 python server.py
 ```
 
-### İstemci başlatma:
+### Start a client:
 ```bash
 python client.py
 ```
 
-### Toplu menü (Windows):
+### Quick menu (Windows):
 ```
-baslat.bat
+lanchat.bat
 ```
 
-## Bağlantı
+## Connection
 
-Varsayılan port: **12345**
+Default port: **12345**
 
-| Parametre | Açıklama |
+| Parameter | Description |
 |-----------|----------|
-| `HOST` | `0.0.0.0` (tüm ağ arayüzleri) |
+| `HOST` | `0.0.0.0` (all network interfaces) |
 | `PORT` | `12345` |
 | `BUFFER` | `65535` |
 
-## Gereksinimler
+## Requirements
 
 - Python 3.6+
-- Standart kütüphane (ek kurulum gerektirmez)
+- Standard library only (no extra dependencies)
 
-## Lisans
+## License
 
 MIT License
