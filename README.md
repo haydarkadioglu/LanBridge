@@ -2,6 +2,10 @@
 
 > Real-time LAN messaging application over TCP sockets
 
+**Built with [Koza AI Agent](https://github.com/haydarkadioglu/Koza-Agent)**
+
+---
+
 ## Features
 
 - ✅ TCP socket-based client-server architecture
